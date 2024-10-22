@@ -3,9 +3,9 @@ import React from 'react'
 function SignInPage() {
   return (
     <div>
-      <p>Hello</p>
+      Sign in page
     </div>
-  );
+  )
 }
 
-export default SignInPage;
+export default SignInPage
