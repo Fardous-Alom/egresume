@@ -1,10 +1,11 @@
+import Header from '@/components/custom/Header'
+import { UserButton } from '@clerk/clerk-react'
 import React from 'react'
 
 function Home() {
   return (
     <div>
-      Home page
-      <p>Hello there</p>
+      <Header/>
     </div>
   )
 }

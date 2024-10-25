@@ -1,9 +1,10 @@
+import { SignIn } from '@clerk/clerk-react'
 import React from 'react'
 
 function SignInPage() {
   return (
-    <div>
-      Sign in page
+    <div className='flex justify-center py-20 bg-green-100'>
+      <SignIn/>
     </div>
   )
 }
